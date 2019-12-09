@@ -1,0 +1,49 @@
+= 1. Use Architectural Decision Records.
+
+Date: 12/08/2019
+
+== Status
+proposed
+
+== Context
+
+Far to often we are plagued with architectural decisions in our application that were made on the fly and never documented or documentation when to some
+digital graveyard, never to be seen again unless someone stumbles upon it.  By keeping a log of application architectural decisions near the code that most affected
+by the changes, developers in the future can quickly scan for areas of technologies and see the decision making process that went into the move.
+This ADR technique is an attempt to answer, *"why did they do it that way???"* or *"What the hell were they thinking??!?"*.
+
+What is an architectural decision? Anything that is:
+
+* a change in technology
+* a new technique
+* an upgrade in technology
+* a new tool added to the developer stack, the application stack
+* something removed from the system
+
+== Decision
+This technique has not been proposed to the group just yet.
+
+== Consequences
+
+What are the pros and cons?
+
+=== Pros:
+* there is an unambiguous record of architectural decisions
+* developers will know *when* decisions was made
+* the decisions are close to the code
+* making decisions are more deliberate
+* this documentation can supply customer documentation
+* these decisions are also versioned with the code
+
+=== Cons:
+* it's more documentation
+* sometimes making a decision consists of finding the first working solution to a problem
+* some architectural decisions aren't recognized as an architectural decision
+
+== Notes
+
+Some of the resources I found that were useful:
+
+http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions
+
+https://www.amazon.com/Documenting-Software-Architectures-Views-Beyond/dp/0321552687

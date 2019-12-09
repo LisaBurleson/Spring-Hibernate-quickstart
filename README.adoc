@@ -1,0 +1,17 @@
+= Spring, JPA with Hibernate
+
+This quickstart project is to demonstrate upgraded verisons of spring 5.2.x, hibernate 5.4.x.
+
+This project will make one or more branches to showcase different variations. Current variations envisioned:
+
+. *main* branch - use the current configuration as much as possible but with just updated jars
+. *spring-orm* branch - 'main' branch + add spring-orm to demonstrate it's usefulness
+. *java-config* branch - 'main' branch + change the configuration of spring and hibernate to java-based configuration
+. *auth* branch - 'main' + add the bare minimum of classes from original code to have the authorization working
+.. AuthenticationDispatcher
+.. UserBean
+.. Security Filters e.g. AuthenticationFilter
+. *container-auth* branch - 'auth' branch + container-based authentication
+.. entry point takes a Principal object
+.. need to accommodate the
+
